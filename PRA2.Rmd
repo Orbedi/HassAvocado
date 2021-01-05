@@ -363,10 +363,3 @@ multihisto + theme(axis.text.x = element_text(angle = 90, hjust = 1, vjust=0.3))
 * Se ha detectado que gracias a la correlacion que hay una ligera correlacion negativa entre el precio de los aguacates y el precio de venta, esto afecta sobretodo a los aguacates convencionales. (Mayor Venta, el precio decae)
 * Por ultimo, no hemos podido concluir un buen modelo que prediga el precio medio de los aguacates. Sin embargo, si que se ha detectado una gran influciencia de la region en el precio medio.
 
-## Firmas
-
-```{r echo=FALSE, results='asis'}
-library(knitr)
-tabla <- array(c(c("Investigación previa", "Redacción de las respuestas", "Desarrollo del código"), c("  ","  ","  ")), dim=c(3,2,1))
-kable(tabla, col.names=c("Contribuciones", "Firma"))
-```
